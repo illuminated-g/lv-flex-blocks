@@ -46,6 +46,7 @@
 			<Item Name="Special Terminal.ctl" Type="VI" URL="../Special Terminal.ctl"/>
 			<Item Name="Terminal Direction.ctl" Type="VI" URL="../Terminal Direction.ctl"/>
 			<Item Name="Terminal State.ctl" Type="VI" URL="../Terminal State.ctl"/>
+			<Item Name="Terminal Status.ctl" Type="VI" URL="../Terminal Status.ctl"/>
 			<Item Name="Type Descriptor.ctl" Type="VI" URL="../Type Descriptor.ctl"/>
 			<Item Name="Value Mode.ctl" Type="VI" URL="../Value Mode.ctl"/>
 		</Item>
@@ -91,13 +92,12 @@
 	<Item Name="Utilities" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="All UI States.vi" Type="VI" URL="../All UI States.vi"/>
-		<Item Name="Available Workers.vi" Type="VI" URL="../Available Workers.vi"/>
 		<Item Name="CopyLibraryNoShift.vi" Type="VI" URL="../CopyLibraryNoShift.vi"/>
 		<Item Name="Execution Hierarchy.vi" Type="VI" URL="../Execution Hierarchy.vi"/>
 		<Item Name="Paths.vi" Type="VI" URL="../Paths.vi"/>
-		<Item Name="Worker Name &amp; Path.vi" Type="VI" URL="../Worker Name &amp; Path.vi"/>
 	</Item>
 	<Item Name="Workers" Type="Folder">
+		<Item Name="Available Workers.vi" Type="VI" URL="../Available Workers.vi"/>
 		<Item Name="Build Values Tree.vi" Type="VI" URL="../Build Values Tree.vi"/>
 		<Item Name="Expand Special Cluster.vi" Type="VI" URL="../Expand Special Cluster.vi"/>
 		<Item Name="Generate Worker Types.vi" Type="VI" URL="../Generate Worker Types.vi"/>
@@ -105,19 +105,49 @@
 		<Item Name="Sort Types.vi" Type="VI" URL="../Sort Types.vi"/>
 		<Item Name="Variant to String.vi" Type="VI" URL="../Variant to String.vi"/>
 		<Item Name="Variant to Type.vi" Type="VI" URL="../Variant to Type.vi"/>
+		<Item Name="Worker Lib Path to Name and Variant.vi" Type="VI" URL="../Worker Lib Path to Name and Variant.vi"/>
+		<Item Name="Worker Name &amp; Path.vi" Type="VI" URL="../Worker Name &amp; Path.vi"/>
 	</Item>
 	<Item Name="XNode Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Data Types" Type="Folder">
+			<Item Name="Calculated Sizes.ctl" Type="VI" URL="../Calculated Sizes.ctl"/>
+			<Item Name="Size Constants.ctl" Type="VI" URL="../Size Constants.ctl"/>
+			<Item Name="XNode Errors.ctl" Type="VI" URL="../XNode Errors.ctl"/>
+		</Item>
 		<Item Name="Drawing" Type="Folder">
-			<Item Name="Draw Channel Tunnel.vi" Type="VI" URL="../Draw Channel Tunnel.vi"/>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Draw Arrow Tunnel.vi" Type="VI" URL="../Draw Arrow Tunnel.vi"/>
+				<Item Name="Draw Channel Tunnel.vi" Type="VI" URL="../Draw Channel Tunnel.vi"/>
+				<Item Name="Draw Expanded Terminals.vi" Type="VI" URL="../Draw Expanded Terminals.vi"/>
+				<Item Name="Draw Icon.vi" Type="VI" URL="../Draw Icon.vi"/>
+				<Item Name="Draw Single Expanded Terminal.vi" Type="VI" URL="../Draw Single Expanded Terminal.vi"/>
+				<Item Name="Draw Term Label.vi" Type="VI" URL="../Draw Term Label.vi"/>
+				<Item Name="Draw Terminal.vi" Type="VI" URL="../Draw Terminal.vi"/>
+				<Item Name="Draw Tunnel.vi" Type="VI" URL="../Draw Tunnel.vi"/>
+			</Item>
 			<Item Name="Draw Frame.vi" Type="VI" URL="../Draw Frame.vi"/>
-			<Item Name="Draw Icon.vi" Type="VI" URL="../Draw Icon.vi"/>
-			<Item Name="Draw Label.vi" Type="VI" URL="../Draw Label.vi"/>
-			<Item Name="Draw Tunnel.vi" Type="VI" URL="../Draw Tunnel.vi"/>
+			<Item Name="Draw Selection Prompt Text.vi" Type="VI" URL="../Draw Selection Prompt Text.vi"/>
+			<Item Name="Draw Worker.vi" Type="VI" URL="../Draw Worker.vi"/>
 		</Item>
 		<Item Name="Images" Type="Folder">
 			<Item Name="Corner Pixmap.vi" Type="VI" URL="../Corner Pixmap.vi"/>
 			<Item Name="Frame 9-Slice Images.vi" Type="VI" URL="../Frame 9-Slice Images.vi"/>
+		</Item>
+		<Item Name="Sizing" Type="Folder">
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Calc Block Heights.vi" Type="VI" URL="../Calc Block Heights.vi"/>
+				<Item Name="Calc Block Width.vi" Type="VI" URL="../Calc Block Width.vi"/>
+				<Item Name="Calc Label Size.vi" Type="VI" URL="../Calc Label Size.vi"/>
+				<Item Name="Calc Text Size.vi" Type="VI" URL="../Calc Text Size.vi"/>
+				<Item Name="Pad Size.vi" Type="VI" URL="../Pad Size.vi"/>
+			</Item>
+			<Item Name="Calculate Sizes.vi" Type="VI" URL="../Calculate Sizes.vi"/>
+			<Item Name="Size Constants.vi" Type="VI" URL="../Size Constants.vi"/>
+		</Item>
+		<Item Name="State" Type="Folder">
+			<Item Name="Terminals From Types.vi" Type="VI" URL="../Terminals From Types.vi"/>
+			<Item Name="Update From Worker.vi" Type="VI" URL="../Update From Worker.vi"/>
 		</Item>
 	</Item>
 </Library>
