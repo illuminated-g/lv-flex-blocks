@@ -34,6 +34,11 @@
 		<Item Name="Execution Engine.vi" Type="VI" URL="../Execution Engine.vi"/>
 		<Item Name="Start or Get Execution.vi" Type="VI" URL="../Start or Get Execution.vi"/>
 	</Item>
+	<Item Name="FlexChannel" Type="Folder">
+		<Item Name="Create Flex Channel.vi" Type="VI" URL="../Create Flex Channel.vi"/>
+		<Item Name="Flex Channel Path.vi" Type="VI" URL="../Flex Channel Path.vi"/>
+		<Item Name="Get Flex Channel.vi" Type="VI" URL="../Get Flex Channel.vi"/>
+	</Item>
 	<Item Name="Interfaces" Type="Folder">
 		<Item Name="New Worker UI.vi" Type="VI" URL="../New Worker UI.vi"/>
 		<Item Name="Worker List UI.vi" Type="VI" URL="../Worker List UI.vi"/>
@@ -45,6 +50,7 @@
 			<Item Name="Special Terminal Indices.ctl" Type="VI" URL="../Special Terminal Indices.ctl"/>
 			<Item Name="Special Terminal.ctl" Type="VI" URL="../Special Terminal.ctl"/>
 			<Item Name="Terminal Direction.ctl" Type="VI" URL="../Terminal Direction.ctl"/>
+			<Item Name="Terminal Draw Style.ctl" Type="VI" URL="../Terminal Draw Style.ctl"/>
 			<Item Name="Terminal State.ctl" Type="VI" URL="../Terminal State.ctl"/>
 			<Item Name="Terminal Status.ctl" Type="VI" URL="../Terminal Status.ctl"/>
 			<Item Name="Type Descriptor.ctl" Type="VI" URL="../Type Descriptor.ctl"/>
@@ -148,6 +154,10 @@
 		<Item Name="State" Type="Folder">
 			<Item Name="Terminals From Types.vi" Type="VI" URL="../Terminals From Types.vi"/>
 			<Item Name="Update From Worker.vi" Type="VI" URL="../Update From Worker.vi"/>
+		</Item>
+		<Item Name="Terminals" Type="Folder">
+			<Item Name="SubVIs" Type="Folder"/>
+			<Item Name="Create Expanded Terminals.vi" Type="VI" URL="../Create Expanded Terminals.vi"/>
 		</Item>
 	</Item>
 </Library>
