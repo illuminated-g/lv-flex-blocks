@@ -11,12 +11,27 @@
 		<Item Name="9-Slice Section.ctl" Type="VI" URL="../9-Slice Section.ctl"/>
 		<Item Name="Action Diagram Sizing.ctl" Type="VI" URL="../Action Diagram Sizing.ctl"/>
 		<Item Name="Action Selections.ctl" Type="VI" URL="../Action Selections.ctl"/>
+		<Item Name="Calculated Sizes.ctl" Type="VI" URL="../Calculated Sizes.ctl"/>
 		<Item Name="Corner.ctl" Type="VI" URL="../Corner.ctl"/>
+		<Item Name="Grouped Terms.ctl" Type="VI" URL="../Grouped Terms.ctl"/>
+		<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
+		<Item Name="Size Constants.ctl" Type="VI" URL="../Size Constants.ctl"/>
+		<Item Name="SM Refs.ctl" Type="VI" URL="../SM Refs.ctl"/>
+		<Item Name="Special Terminal Indices.ctl" Type="VI" URL="../Special Terminal Indices.ctl"/>
+		<Item Name="Special Terminal.ctl" Type="VI" URL="../Special Terminal.ctl"/>
+		<Item Name="Terminal Direction.ctl" Type="VI" URL="../Terminal Direction.ctl"/>
+		<Item Name="Terminal Draw Style.ctl" Type="VI" URL="../Terminal Draw Style.ctl"/>
+		<Item Name="Terminal Group.ctl" Type="VI" URL="../Terminal Group.ctl"/>
+		<Item Name="Terminal State.ctl" Type="VI" URL="../Terminal State.ctl"/>
+		<Item Name="Terminal Status.ctl" Type="VI" URL="../Terminal Status.ctl"/>
 		<Item Name="Tunnel Side.ctl" Type="VI" URL="../Tunnel Side.ctl"/>
+		<Item Name="Type Descriptor.ctl" Type="VI" URL="../Type Descriptor.ctl"/>
 		<Item Name="UI State.ctl" Type="VI" URL="../UI State.ctl"/>
+		<Item Name="Value Mode.ctl" Type="VI" URL="../Value Mode.ctl"/>
 		<Item Name="Worker Action.ctl" Type="VI" URL="../Worker Action.ctl"/>
 		<Item Name="Worker Info.ctl" Type="VI" URL="../Worker Info.ctl"/>
 		<Item Name="Worker Variant.ctl" Type="VI" URL="../Worker Variant.ctl"/>
+		<Item Name="XNode Errors.ctl" Type="VI" URL="../XNode Errors.ctl"/>
 	</Item>
 	<Item Name="Drawing" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
@@ -45,18 +60,16 @@
 	</Item>
 	<Item Name="Scripting" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Data Types" Type="Folder">
-			<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
-			<Item Name="Special Terminal Indices.ctl" Type="VI" URL="../Special Terminal Indices.ctl"/>
-			<Item Name="Special Terminal.ctl" Type="VI" URL="../Special Terminal.ctl"/>
-			<Item Name="Terminal Direction.ctl" Type="VI" URL="../Terminal Direction.ctl"/>
-			<Item Name="Terminal Draw Style.ctl" Type="VI" URL="../Terminal Draw Style.ctl"/>
-			<Item Name="Terminal State.ctl" Type="VI" URL="../Terminal State.ctl"/>
-			<Item Name="Terminal Status.ctl" Type="VI" URL="../Terminal Status.ctl"/>
-			<Item Name="Type Descriptor.ctl" Type="VI" URL="../Type Descriptor.ctl"/>
-			<Item Name="Value Mode.ctl" Type="VI" URL="../Value Mode.ctl"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Collect SM Refs.vi" Type="VI" URL="../Collect SM Refs.vi"/>
+			<Item Name="Copy SM Template.vi" Type="VI" URL="../Copy SM Template.vi"/>
+			<Item Name="Group Terminals.vi" Type="VI" URL="../Group Terminals.vi"/>
+			<Item Name="Replace Worker Items.vi" Type="VI" URL="../Replace Worker Items.vi"/>
+			<Item Name="SM Ref Taversal Callback.vi" Type="VI" URL="../SM Ref Taversal Callback.vi"/>
+			<Item Name="Traverse BD.vim" Type="VI" URL="../Traverse BD.vim"/>
+			<Item Name="Traverse GObjects with Visitor.vim" Type="VI" URL="../Traverse GObjects with Visitor.vim"/>
 		</Item>
-		<Item Name="Traverse GObjects with Visitor.vim" Type="VI" URL="../Traverse GObjects with Visitor.vim"/>
+		<Item Name="Script XNode.vi" Type="VI" URL="../Script XNode.vi"/>
 		<Item Name="Traverse VI Type.vit" Type="VI" URL="../Traverse VI Type.vit"/>
 		<Item Name="Type String.vi" Type="VI" URL="../Type String.vi"/>
 	</Item>
@@ -116,11 +129,7 @@
 	</Item>
 	<Item Name="XNode Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Data Types" Type="Folder">
-			<Item Name="Calculated Sizes.ctl" Type="VI" URL="../Calculated Sizes.ctl"/>
-			<Item Name="Size Constants.ctl" Type="VI" URL="../Size Constants.ctl"/>
-			<Item Name="XNode Errors.ctl" Type="VI" URL="../XNode Errors.ctl"/>
-		</Item>
+		<Item Name="Data Types" Type="Folder"/>
 		<Item Name="Drawing" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="Draw Arrow Tunnel.vi" Type="VI" URL="../Draw Arrow Tunnel.vi"/>
@@ -156,7 +165,11 @@
 			<Item Name="Update From Worker.vi" Type="VI" URL="../Update From Worker.vi"/>
 		</Item>
 		<Item Name="Terminals" Type="Folder">
-			<Item Name="SubVIs" Type="Folder"/>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Check Types Match.vi" Type="VI" URL="../Check Types Match.vi"/>
+				<Item Name="Fix Variant Typedef.vi" Type="VI" URL="../Fix Variant Typedef.vi"/>
+			</Item>
+			<Item Name="Check Wired Terminal.vi" Type="VI" URL="../Check Wired Terminal.vi"/>
 			<Item Name="Create Expanded Terminals.vi" Type="VI" URL="../Create Expanded Terminals.vi"/>
 		</Item>
 	</Item>
