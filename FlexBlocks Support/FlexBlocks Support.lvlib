@@ -14,11 +14,14 @@
 		<Item Name="Calculated Sizes.ctl" Type="VI" URL="../Calculated Sizes.ctl"/>
 		<Item Name="Corner.ctl" Type="VI" URL="../Corner.ctl"/>
 		<Item Name="Grouped Terms.ctl" Type="VI" URL="../Grouped Terms.ctl"/>
+		<Item Name="Lossless Terminals.ctl" Type="VI" URL="../Lossless Terminals.ctl"/>
+		<Item Name="Lossy Terminals.ctl" Type="VI" URL="../Lossy Terminals.ctl"/>
 		<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
 		<Item Name="Size Constants.ctl" Type="VI" URL="../Size Constants.ctl"/>
 		<Item Name="SM Refs.ctl" Type="VI" URL="../SM Refs.ctl"/>
 		<Item Name="Special Terminal Indices.ctl" Type="VI" URL="../Special Terminal Indices.ctl"/>
 		<Item Name="Special Terminal.ctl" Type="VI" URL="../Special Terminal.ctl"/>
+		<Item Name="Status Terminals.ctl" Type="VI" URL="../Status Terminals.ctl"/>
 		<Item Name="Terminal Direction.ctl" Type="VI" URL="../Terminal Direction.ctl"/>
 		<Item Name="Terminal Draw Style.ctl" Type="VI" URL="../Terminal Draw Style.ctl"/>
 		<Item Name="Terminal Group.ctl" Type="VI" URL="../Terminal Group.ctl"/>
@@ -31,6 +34,7 @@
 		<Item Name="Worker Action.ctl" Type="VI" URL="../Worker Action.ctl"/>
 		<Item Name="Worker Info.ctl" Type="VI" URL="../Worker Info.ctl"/>
 		<Item Name="Worker Variant.ctl" Type="VI" URL="../Worker Variant.ctl"/>
+		<Item Name="Write Terminals.ctl" Type="VI" URL="../Write Terminals.ctl"/>
 		<Item Name="XNode Errors.ctl" Type="VI" URL="../XNode Errors.ctl"/>
 	</Item>
 	<Item Name="Drawing" Type="Folder">
@@ -55,6 +59,7 @@
 		<Item Name="Get Flex Channel.vi" Type="VI" URL="../Get Flex Channel.vi"/>
 	</Item>
 	<Item Name="Interfaces" Type="Folder">
+		<Item Name="Message UI.vi" Type="VI" URL="../Message UI.vi"/>
 		<Item Name="New Worker UI.vi" Type="VI" URL="../New Worker UI.vi"/>
 		<Item Name="Worker List UI.vi" Type="VI" URL="../Worker List UI.vi"/>
 	</Item>
@@ -63,11 +68,23 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Collect SM Refs.vi" Type="VI" URL="../Collect SM Refs.vi"/>
 			<Item Name="Copy SM Template.vi" Type="VI" URL="../Copy SM Template.vi"/>
+			<Item Name="Create Lossless Endpoint.vi" Type="VI" URL="../Create Lossless Endpoint.vi"/>
+			<Item Name="Create Lossy Endpoint.vi" Type="VI" URL="../Create Lossy Endpoint.vi"/>
+			<Item Name="Create Write Endpoint.vi" Type="VI" URL="../Create Write Endpoint.vi"/>
+			<Item Name="Find MFStruct Inner Tunnel.vi" Type="VI" URL="../Find MFStruct Inner Tunnel.vi"/>
+			<Item Name="Get Other Inner Case Terminal.vi" Type="VI" URL="../Get Other Inner Case Terminal.vi"/>
 			<Item Name="Group Terminals.vi" Type="VI" URL="../Group Terminals.vi"/>
+			<Item Name="Remove Tag Objects.vi" Type="VI" URL="../Remove Tag Objects.vi"/>
 			<Item Name="Replace Worker Items.vi" Type="VI" URL="../Replace Worker Items.vi"/>
+			<Item Name="Script Work CS.vi" Type="VI" URL="../Script Work CS.vi"/>
+			<Item Name="Set Connected Tunnel Optional.vi" Type="VI" URL="../Set Connected Tunnel Optional.vi"/>
 			<Item Name="SM Ref Taversal Callback.vi" Type="VI" URL="../SM Ref Taversal Callback.vi"/>
 			<Item Name="Traverse BD.vim" Type="VI" URL="../Traverse BD.vim"/>
 			<Item Name="Traverse GObjects with Visitor.vim" Type="VI" URL="../Traverse GObjects with Visitor.vim"/>
+			<Item Name="Wire Init Terms.vi" Type="VI" URL="../Wire Init Terms.vi"/>
+			<Item Name="Wire Lossless Terminals.vi" Type="VI" URL="../Wire Lossless Terminals.vi"/>
+			<Item Name="Wire Source Terminals.vi" Type="VI" URL="../Wire Source Terminals.vi"/>
+			<Item Name="Wire Tag Terminals.vi" Type="VI" URL="../Wire Tag Terminals.vi"/>
 		</Item>
 		<Item Name="Script XNode.vi" Type="VI" URL="../Script XNode.vi"/>
 		<Item Name="Traverse VI Type.vit" Type="VI" URL="../Traverse VI Type.vit"/>
@@ -121,6 +138,7 @@
 		<Item Name="Expand Special Cluster.vi" Type="VI" URL="../Expand Special Cluster.vi"/>
 		<Item Name="Generate Worker Types.vi" Type="VI" URL="../Generate Worker Types.vi"/>
 		<Item Name="Make New Worker.vi" Type="VI" URL="../Make New Worker.vi"/>
+		<Item Name="Script Work VIs.vi" Type="VI" URL="../Script Work VIs.vi"/>
 		<Item Name="Sort Types.vi" Type="VI" URL="../Sort Types.vi"/>
 		<Item Name="Variant to String.vi" Type="VI" URL="../Variant to String.vi"/>
 		<Item Name="Variant to Type.vi" Type="VI" URL="../Variant to Type.vi"/>

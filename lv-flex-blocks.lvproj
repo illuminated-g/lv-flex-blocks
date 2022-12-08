@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="22308000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,6 +16,8 @@
 		<Item Name="FlexBlocks Support.lvlib" Type="Library" URL="../FlexBlocks Support/FlexBlocks Support.lvlib"/>
 		<Item Name="Scratchpad.vi" Type="VI" URL="../Scratchpad.vi"/>
 		<Item Name="Worker Template.lvlib" Type="Library" URL="../Worker Template/Worker Template.lvlib"/>
+		<Item Name="Test Exec.vi" Type="VI" URL="../Test Exec.vi"/>
+		<Item Name="Audio Test.vi" Type="VI" URL="../../AdventOfCode2022/AoC22/Audio Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AutoComplete.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/IG AutoComplete/AutoComplete/AutoComplete.lvlib"/>
@@ -106,6 +109,14 @@
 				<Item Name="VIAnUtil Has Diagram.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Diagram.vi"/>
 				<Item Name="VIAnUtil Has Panel.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Panel.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="Channel Message.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ChannelSupport/Channel Message/Channel Message.lvclass"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="G-Audio.lvlib" Type="Library" URL="/&lt;vilib&gt;/Dataflow_G/G-Audio/G-Audio.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="g_audio_32.dll" Type="Document" URL="/&lt;vilib&gt;/Dataflow_G/G-Audio/lib/g_audio_32.dll"/>
 			</Item>
 			<Item Name="_ChannelScriptingSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/_ChannelScriptingSupport.lvlib"/>
 			<Item Name="Flex-t&apos;FlexBlocks Support.lvlib-Execution Events.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-t&apos;FlexBlocks Support.lvlib-Execution Events.ctl&apos;.lvlib"/>
@@ -116,6 +127,21 @@
 			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
+			<Item Name="FGen.lvlib" Type="Library" URL="../../../../Users/Localization Tester/Documents/LabVIEW Data/IlluminatedG/FlexBlocks/Workers/FGen/FGen.lvlib"/>
+			<Item Name="Flex-dbl.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-dbl.lvlib"/>
+			<Item Name="Flex-t&apos;FGen.lvlib-Shape.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-t&apos;FGen.lvlib-Shape.ctl&apos;.lvlib"/>
+			<Item Name="Flex-c(dbl,dbl,a[.](dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-c(dbl,dbl,a[.](dbl)).lvlib"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
+			<Item Name="Messenger-t&apos;FlexBlocks Support.lvlib-Execution Events.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Messenger-t&apos;FlexBlocks Support.lvlib-Execution Events.ctl&apos;.lvlib"/>
+			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
+			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
+			<Item Name="Flex-u8.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-u8.lvlib"/>
+			<Item Name="G-Audio Sink.lvlib" Type="Library" URL="../../../../Users/Localization Tester/Documents/LabVIEW Data/IlluminatedG/FlexBlocks/Workers/G-Audio Sink/G-Audio Sink.lvlib"/>
+			<Item Name="Tag-t&apos;FlexBlocks Support.lvlib-Execution Events.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;FlexBlocks Support.lvlib-Execution Events.ctl&apos;.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
