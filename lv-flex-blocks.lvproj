@@ -14,10 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Flex Block.xnode" Type="XNode" URL="../Flex Block/Flex Block.xnode"/>
 		<Item Name="FlexBlocks Support.lvlib" Type="Library" URL="../FlexBlocks Support/FlexBlocks Support.lvlib"/>
-		<Item Name="Scratchpad.vi" Type="VI" URL="../Scratchpad.vi"/>
 		<Item Name="Worker Template.lvlib" Type="Library" URL="../Worker Template/Worker Template.lvlib"/>
-		<Item Name="Test Exec.vi" Type="VI" URL="../Test Exec.vi"/>
-		<Item Name="Audio Test.vi" Type="VI" URL="../../AdventOfCode2022/AoC22/Audio Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AutoComplete.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/IG AutoComplete/AutoComplete/AutoComplete.lvlib"/>
@@ -109,17 +106,7 @@
 				<Item Name="VIAnUtil Has Diagram.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Diagram.vi"/>
 				<Item Name="VIAnUtil Has Panel.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Panel.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Channel Message.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ChannelSupport/Channel Message/Channel Message.lvclass"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="RTL-SDR.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/IG RTL-SDR/RTL-SDR/RTL-SDR.lvlib"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
-				<Item Name="niAMT.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Modulation/niAMT.lvlib"/>
 			</Item>
 			<Item Name="_ChannelScriptingSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/_ChannelScriptingSupport.lvlib"/>
 			<Item Name="GetTemplatePathFromLib.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/GetTemplatePathFromLib.vi"/>
@@ -129,23 +116,6 @@
 			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
-			<Item Name="Flex-dbl.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-dbl.lvlib"/>
-			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
-			<Item Name="Messenger-t&apos;FlexBlocks Support.lvlib-Execution Events.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Messenger-t&apos;FlexBlocks Support.lvlib-Execution Events.ctl&apos;.lvlib"/>
-			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
-			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
-			<Item Name="Flex-u32.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-u32.lvlib"/>
-			<Item Name="Flex-c(dbl,dbl,a[.](cdb)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-c(dbl,dbl,a[.](cdb)).lvlib"/>
-			<Item Name="RTL-SDR Source.lvlib" Type="Library" URL="../../../../Users/Localization Tester/Documents/LabVIEW Data/IlluminatedG/FlexBlocks/Workers/RTL-SDR Source/RTL-SDR Source.lvlib"/>
-			<Item Name="Flex-t&apos;RTL-SDR Source.lvlib-Params.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-t&apos;RTL-SDR Source.lvlib-Params.ctl&apos;.lvlib"/>
-			<Item Name="Flex-c(dbl,dbl,a[.](dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-c(dbl,dbl,a[.](dbl)).lvlib"/>
-			<Item Name="FM Demod.lvlib" Type="Library" URL="../../../../Users/Localization Tester/Documents/LabVIEW Data/IlluminatedG/FlexBlocks/Workers/FM Demod/FM Demod.lvlib"/>
-			<Item Name="nilvamt.dll" Type="Document" URL="nilvamt.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

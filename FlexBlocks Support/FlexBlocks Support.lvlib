@@ -50,6 +50,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Closed Notifier.vi" Type="VI" URL="../Closed Notifier.vi"/>
+			<Item Name="Create Event Queue.vi" Type="VI" URL="../Create Event Queue.vi"/>
 			<Item Name="Create Execution Events.vi" Type="VI" URL="../Create Execution Events.vi"/>
 			<Item Name="Destroy Events.vi" Type="VI" URL="../Destroy Events.vi"/>
 			<Item Name="Execution Engine.vi" Type="VI" URL="../Execution Engine.vi"/>
@@ -128,8 +129,8 @@
 			<Item Name="Worker Status Update.vim" Type="VI" URL="../Worker Status Update.vim"/>
 		</Item>
 		<Item Name="Values" Type="Folder">
-			<Item Name="Read Ref Value.vim" Type="VI" URL="../../../.lv-flex-blocks/FlexBlocks Support/Read Ref Value.vim"/>
-			<Item Name="Write Ref Value.vim" Type="VI" URL="../../../.lv-flex-blocks/FlexBlocks Support/Write Ref Value.vim"/>
+			<Item Name="Read Ref Value.vim" Type="VI" URL="../Read Ref Value.vim"/>
+			<Item Name="Write Ref Value.vim" Type="VI" URL="../Write Ref Value.vim"/>
 		</Item>
 		<Item Name="SM Template.vit" Type="VI" URL="../SM Template.vit"/>
 	</Item>
@@ -137,6 +138,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="All UI States.vi" Type="VI" URL="../All UI States.vi"/>
 		<Item Name="CopyLibraryNoShift.vi" Type="VI" URL="../CopyLibraryNoShift.vi"/>
+		<Item Name="Dev Mode.vi" Type="VI" URL="../Dev Mode.vi"/>
 		<Item Name="Execution Hierarchy.vi" Type="VI" URL="../Execution Hierarchy.vi"/>
 		<Item Name="Find Context.vi" Type="VI" URL="../Find Context.vi"/>
 		<Item Name="Paths.vi" Type="VI" URL="../Paths.vi"/>
