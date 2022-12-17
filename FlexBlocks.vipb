@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-08 21:36:11" Modified_Date="2022-12-16 21:47:21" Creator="Localization Tester" Comments="" ID="ad2fe79fc711fd4ed7eb7580c3c7335b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-08 21:36:11" Modified_Date="2022-12-16 22:53:27" Creator="Localization Tester" Comments="" ID="a6f8267752184e7e0a31fdb8fdf4cca9">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_FlexBlocks</Package_File_Name>
-    <Library_Version>0.1.0.4</Library_Version>
+    <Library_Version>0.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -111,12 +111,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>Scratchpad.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Test Exec.vi</Path>
-      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -220,7 +214,7 @@
         <Path>Flex Block\Flex Block.xnode</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A07007C7512FB27CF02A5B19BA74F1D3</GUID>
+      <GUID>B7A08F952D5C5BE787F985AD63D1EC59</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
