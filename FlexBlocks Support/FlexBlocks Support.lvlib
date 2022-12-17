@@ -48,10 +48,16 @@
 	</Item>
 	<Item Name="Execution" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Create Execution Events.vi" Type="VI" URL="../Create Execution Events.vi"/>
-		<Item Name="Destroy Events.vi" Type="VI" URL="../Destroy Events.vi"/>
-		<Item Name="Execution Engine.vi" Type="VI" URL="../Execution Engine.vi"/>
-		<Item Name="Start or Get Execution.vi" Type="VI" URL="../Start or Get Execution.vi"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Closed Notifier.vi" Type="VI" URL="../Closed Notifier.vi"/>
+			<Item Name="Create Execution Events.vi" Type="VI" URL="../Create Execution Events.vi"/>
+			<Item Name="Destroy Events.vi" Type="VI" URL="../Destroy Events.vi"/>
+			<Item Name="Execution Engine.vi" Type="VI" URL="../Execution Engine.vi"/>
+			<Item Name="Execution Events Notifier.vi" Type="VI" URL="../Execution Events Notifier.vi"/>
+			<Item Name="Start or Get Execution.vi" Type="VI" URL="../Start or Get Execution.vi"/>
+		</Item>
+		<Item Name="Check Closed.vi" Type="VI" URL="../Check Closed.vi"/>
+		<Item Name="Execution Command.vi" Type="VI" URL="../Execution Command.vi"/>
 	</Item>
 	<Item Name="FlexChannel" Type="Folder">
 		<Item Name="Create Flex Channel.vi" Type="VI" URL="../Create Flex Channel.vi"/>
@@ -74,6 +80,8 @@
 			<Item Name="Find MFStruct Inner Tunnel.vi" Type="VI" URL="../Find MFStruct Inner Tunnel.vi"/>
 			<Item Name="Get Other Inner Case Terminal.vi" Type="VI" URL="../Get Other Inner Case Terminal.vi"/>
 			<Item Name="Group Terminals.vi" Type="VI" URL="../Group Terminals.vi"/>
+			<Item Name="Outside Connected Terminal.vi" Type="VI" URL="../Outside Connected Terminal.vi"/>
+			<Item Name="Remove Init Objects.vi" Type="VI" URL="../Remove Init Objects.vi"/>
 			<Item Name="Remove Tag Objects.vi" Type="VI" URL="../Remove Tag Objects.vi"/>
 			<Item Name="Replace Worker Items.vi" Type="VI" URL="../Replace Worker Items.vi"/>
 			<Item Name="Script Work CS.vi" Type="VI" URL="../Script Work CS.vi"/>
@@ -120,8 +128,8 @@
 			<Item Name="Worker Status Update.vim" Type="VI" URL="../Worker Status Update.vim"/>
 		</Item>
 		<Item Name="Values" Type="Folder">
-			<Item Name="Read Ref Value.vim" Type="VI" URL="../Read Ref Value.vim"/>
-			<Item Name="Write Ref Value.vim" Type="VI" URL="../Write Ref Value.vim"/>
+			<Item Name="Read Ref Value.vim" Type="VI" URL="../../../.lv-flex-blocks/FlexBlocks Support/Read Ref Value.vim"/>
+			<Item Name="Write Ref Value.vim" Type="VI" URL="../../../.lv-flex-blocks/FlexBlocks Support/Write Ref Value.vim"/>
 		</Item>
 		<Item Name="SM Template.vit" Type="VI" URL="../SM Template.vit"/>
 	</Item>
@@ -130,6 +138,7 @@
 		<Item Name="All UI States.vi" Type="VI" URL="../All UI States.vi"/>
 		<Item Name="CopyLibraryNoShift.vi" Type="VI" URL="../CopyLibraryNoShift.vi"/>
 		<Item Name="Execution Hierarchy.vi" Type="VI" URL="../Execution Hierarchy.vi"/>
+		<Item Name="Find Context.vi" Type="VI" URL="../Find Context.vi"/>
 		<Item Name="Paths.vi" Type="VI" URL="../Paths.vi"/>
 	</Item>
 	<Item Name="Workers" Type="Folder">
@@ -165,7 +174,6 @@
 		</Item>
 		<Item Name="Images" Type="Folder">
 			<Item Name="Corner Pixmap.vi" Type="VI" URL="../Corner Pixmap.vi"/>
-			<Item Name="Frame 9-Slice Images.vi" Type="VI" URL="../Frame 9-Slice Images.vi"/>
 		</Item>
 		<Item Name="Sizing" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
