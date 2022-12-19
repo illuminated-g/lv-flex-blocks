@@ -11,6 +11,7 @@
 		<Item Name="9-Slice Section.ctl" Type="VI" URL="../9-Slice Section.ctl"/>
 		<Item Name="Action Diagram Sizing.ctl" Type="VI" URL="../Action Diagram Sizing.ctl"/>
 		<Item Name="Action Selections.ctl" Type="VI" URL="../Action Selections.ctl"/>
+		<Item Name="Block IO Control.ctl" Type="VI" URL="../Block IO Control.ctl"/>
 		<Item Name="Calculated Sizes.ctl" Type="VI" URL="../Calculated Sizes.ctl"/>
 		<Item Name="Corner.ctl" Type="VI" URL="../Corner.ctl"/>
 		<Item Name="Grouped Terms.ctl" Type="VI" URL="../Grouped Terms.ctl"/>
@@ -46,6 +47,11 @@
 		<Item Name="Draw Action Diagram.vi" Type="VI" URL="../Draw Action Diagram.vi"/>
 		<Item Name="Draw Pixmap at Position.vi" Type="VI" URL="../Draw Pixmap at Position.vi"/>
 	</Item>
+	<Item Name="Editor" Type="Folder">
+		<Item Name="_Worker Drop Instance FG.vi" Type="VI" URL="../_Worker Drop Instance FG.vi"/>
+		<Item Name="Call Worker Drop Instance.vi" Type="VI" URL="../Call Worker Drop Instance.vi"/>
+		<Item Name="Flex Editor Context.vi" Type="VI" URL="../Flex Editor Context.vi"/>
+	</Item>
 	<Item Name="Execution" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="SubVIs" Type="Folder">
@@ -66,6 +72,10 @@
 		<Item Name="Get Flex Channel.vi" Type="VI" URL="../Get Flex Channel.vi"/>
 	</Item>
 	<Item Name="Interfaces" Type="Folder">
+		<Item Name="Launchers" Type="Folder">
+			<Item Name="Launch Blocks UI.vi" Type="VI" URL="../Launch Blocks UI.vi"/>
+		</Item>
+		<Item Name="Block Tree UI.vi" Type="VI" URL="../Block Tree UI.vi"/>
 		<Item Name="Message UI.vi" Type="VI" URL="../Message UI.vi"/>
 		<Item Name="New Worker UI.vi" Type="VI" URL="../New Worker UI.vi"/>
 		<Item Name="Worker List UI.vi" Type="VI" URL="../Worker List UI.vi"/>
@@ -85,6 +95,7 @@
 			<Item Name="Remove Init Objects.vi" Type="VI" URL="../Remove Init Objects.vi"/>
 			<Item Name="Remove Tag Objects.vi" Type="VI" URL="../Remove Tag Objects.vi"/>
 			<Item Name="Replace Worker Items.vi" Type="VI" URL="../Replace Worker Items.vi"/>
+			<Item Name="Script IO Control.vi" Type="VI" URL="../Script IO Control.vi"/>
 			<Item Name="Script Work CS.vi" Type="VI" URL="../Script Work CS.vi"/>
 			<Item Name="Set Connected Tunnel Optional.vi" Type="VI" URL="../Set Connected Tunnel Optional.vi"/>
 			<Item Name="SM Ref Taversal Callback.vi" Type="VI" URL="../SM Ref Taversal Callback.vi"/>
@@ -141,16 +152,19 @@
 		<Item Name="Dev Mode.vi" Type="VI" URL="../Dev Mode.vi"/>
 		<Item Name="Execution Hierarchy.vi" Type="VI" URL="../Execution Hierarchy.vi"/>
 		<Item Name="Find Context.vi" Type="VI" URL="../Find Context.vi"/>
+		<Item Name="Other Wire Term.vi" Type="VI" URL="../Other Wire Term.vi"/>
 		<Item Name="Paths.vi" Type="VI" URL="../Paths.vi"/>
 	</Item>
 	<Item Name="Workers" Type="Folder">
 		<Item Name="Available Workers.vi" Type="VI" URL="../Available Workers.vi"/>
+		<Item Name="Build Blocks Tree.vi" Type="VI" URL="../Build Blocks Tree.vi"/>
 		<Item Name="Build Values Tree.vi" Type="VI" URL="../Build Values Tree.vi"/>
 		<Item Name="Expand Special Cluster.vi" Type="VI" URL="../Expand Special Cluster.vi"/>
 		<Item Name="Generate Worker Types.vi" Type="VI" URL="../Generate Worker Types.vi"/>
 		<Item Name="Make New Worker.vi" Type="VI" URL="../Make New Worker.vi"/>
 		<Item Name="Script Work VIs.vi" Type="VI" URL="../Script Work VIs.vi"/>
 		<Item Name="Sort Types.vi" Type="VI" URL="../Sort Types.vi"/>
+		<Item Name="Tag to Block.vi" Type="VI" URL="../Tag to Block.vi"/>
 		<Item Name="Variant to String.vi" Type="VI" URL="../Variant to String.vi"/>
 		<Item Name="Variant to Type.vi" Type="VI" URL="../Variant to Type.vi"/>
 		<Item Name="Worker Lib Path to Name and Variant.vi" Type="VI" URL="../Worker Lib Path to Name and Variant.vi"/>

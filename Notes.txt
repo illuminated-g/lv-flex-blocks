@@ -1,0 +1,5 @@
+- Need to prevent creating workers from XNode selection.
+- Create a block tree UI for dropping blocks
+- Easier creation of channel wire endpoints from blocks
+- handle control ref inputs
+- Tools menu entries
