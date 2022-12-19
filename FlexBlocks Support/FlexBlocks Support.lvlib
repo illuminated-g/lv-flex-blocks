@@ -17,6 +17,7 @@
 		<Item Name="Grouped Terms.ctl" Type="VI" URL="../Grouped Terms.ctl"/>
 		<Item Name="Lossless Terminals.ctl" Type="VI" URL="../Lossless Terminals.ctl"/>
 		<Item Name="Lossy Terminals.ctl" Type="VI" URL="../Lossy Terminals.ctl"/>
+		<Item Name="New Block Config.ctl" Type="VI" URL="../New Block Config.ctl"/>
 		<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
 		<Item Name="Size Constants.ctl" Type="VI" URL="../Size Constants.ctl"/>
 		<Item Name="SM Refs.ctl" Type="VI" URL="../SM Refs.ctl"/>
@@ -56,12 +57,12 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Closed Notifier.vi" Type="VI" URL="../Closed Notifier.vi"/>
-			<Item Name="Create Event Queue.vi" Type="VI" URL="../Create Event Queue.vi"/>
+			<Item Name="Create Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Create Event Queue.vi"/>
 			<Item Name="Create Execution Events.vi" Type="VI" URL="../Create Execution Events.vi"/>
 			<Item Name="Destroy Events.vi" Type="VI" URL="../Destroy Events.vi"/>
 			<Item Name="Execution Engine.vi" Type="VI" URL="../Execution Engine.vi"/>
 			<Item Name="Execution Events Notifier.vi" Type="VI" URL="../Execution Events Notifier.vi"/>
-			<Item Name="Start or Get Execution.vi" Type="VI" URL="../Start or Get Execution.vi"/>
+			<Item Name="Start or Get Execution.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Start or Get Execution.vi"/>
 		</Item>
 		<Item Name="Check Closed.vi" Type="VI" URL="../Check Closed.vi"/>
 		<Item Name="Execution Command.vi" Type="VI" URL="../Execution Command.vi"/>
@@ -75,10 +76,9 @@
 		<Item Name="Launchers" Type="Folder">
 			<Item Name="Launch Blocks UI.vi" Type="VI" URL="../Launch Blocks UI.vi"/>
 		</Item>
-		<Item Name="Block Tree UI.vi" Type="VI" URL="../Block Tree UI.vi"/>
+		<Item Name="Block List UI.vi" Type="VI" URL="../Block List UI.vi"/>
 		<Item Name="Message UI.vi" Type="VI" URL="../Message UI.vi"/>
-		<Item Name="New Worker UI.vi" Type="VI" URL="../New Worker UI.vi"/>
-		<Item Name="Worker List UI.vi" Type="VI" URL="../Worker List UI.vi"/>
+		<Item Name="New Block UI.vi" Type="VI" URL="../New Block UI.vi"/>
 	</Item>
 	<Item Name="Scripting" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -113,11 +113,11 @@
 	<Item Name="SM Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Commands" Type="Folder">
-			<Item Name="Idle State Update.vi" Type="VI" URL="../Idle State Update.vi"/>
-			<Item Name="Init State Update.vi" Type="VI" URL="../Init State Update.vi"/>
-			<Item Name="Run State Update.vi" Type="VI" URL="../Run State Update.vi"/>
-			<Item Name="Start State Update.vi" Type="VI" URL="../Start State Update.vi"/>
-			<Item Name="Stop State Update.vi" Type="VI" URL="../Stop State Update.vi"/>
+			<Item Name="Idle State Update.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Idle State Update.vi"/>
+			<Item Name="Init State Update.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Init State Update.vi"/>
+			<Item Name="Run State Update.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Run State Update.vi"/>
+			<Item Name="Start State Update.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Start State Update.vi"/>
+			<Item Name="Stop State Update.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Stop State Update.vi"/>
 		</Item>
 		<Item Name="Data Types" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -132,12 +132,12 @@
 			<Item Name="Execution Events.ctl" Type="VI" URL="../Execution Events.ctl"/>
 		</Item>
 		<Item Name="Status" Type="Folder">
-			<Item Name="Init SM.vi" Type="VI" URL="../Init SM.vi"/>
-			<Item Name="Input Status Update.vi" Type="VI" URL="../Input Status Update.vi"/>
-			<Item Name="Iteration Status Update.vi" Type="VI" URL="../Iteration Status Update.vi"/>
-			<Item Name="Output Status Update.vi" Type="VI" URL="../Output Status Update.vi"/>
-			<Item Name="Start Block Cycle.vi" Type="VI" URL="../Start Block Cycle.vi"/>
-			<Item Name="Worker Status Update.vim" Type="VI" URL="../Worker Status Update.vim"/>
+			<Item Name="Init SM.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Init SM.vi"/>
+			<Item Name="Input Status Update.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Input Status Update.vi"/>
+			<Item Name="Iteration Status Update.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Iteration Status Update.vi"/>
+			<Item Name="Output Status Update.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Output Status Update.vi"/>
+			<Item Name="Start Block Cycle.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Start Block Cycle.vi"/>
+			<Item Name="Worker Status Update.vim" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/FlexBlocks/FlexBlocks Support/Worker Status Update.vim"/>
 		</Item>
 		<Item Name="Values" Type="Folder">
 			<Item Name="Read Ref Value.vim" Type="VI" URL="../Read Ref Value.vim"/>
