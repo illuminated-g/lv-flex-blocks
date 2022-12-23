@@ -13,11 +13,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tools Menu" Type="Folder">
-			<Item Name="Flex Blocks.vi" Type="VI" URL="../Menus/Tools/Flex/Flex Blocks.vi"/>
+			<Item Name="Block Tree.vi" Type="VI" URL="../Menus/Tools/Flex/Block Tree.vi"/>
 		</Item>
 		<Item Name="Flex Block.xnode" Type="XNode" URL="../Flex Block/Flex Block.xnode"/>
 		<Item Name="FlexBlocks Support.lvlib" Type="Library" URL="../FlexBlocks Support/FlexBlocks Support.lvlib"/>
 		<Item Name="Worker Template.lvlib" Type="Library" URL="../Worker Template/Worker Template.lvlib"/>
+		<Item Name="Scratchpad.vi" Type="VI" URL="../Scratchpad.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -111,6 +112,8 @@
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="AutoComplete.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/IG AutoComplete/AutoComplete/AutoComplete.lvlib"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="_ChannelScriptingSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/_ChannelScriptingSupport.lvlib"/>
 			<Item Name="GetTemplatePathFromLib.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/GetTemplatePathFromLib.vi"/>
@@ -120,6 +123,10 @@
 			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
+			<Item Name="Flex-dbl.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-dbl.lvlib"/>
+			<Item Name="Flex-c(dbl,dbl,a[.](dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-c(dbl,dbl,a[.](dbl)).lvlib"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Gain.lvlib" Type="Library" URL="../../../../Users/Localization Tester/Documents/LabVIEW Data/FB-Dev/FlexBlocks/Workers/Gain/Gain.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

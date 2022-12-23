@@ -11,14 +11,18 @@
 		<Item Name="9-Slice Section.ctl" Type="VI" URL="../9-Slice Section.ctl"/>
 		<Item Name="Action Diagram Sizing.ctl" Type="VI" URL="../Action Diagram Sizing.ctl"/>
 		<Item Name="Action Selections.ctl" Type="VI" URL="../Action Selections.ctl"/>
-		<Item Name="Block IO Control.ctl" Type="VI" URL="../Block IO Control.ctl"/>
+		<Item Name="Block Config.ctl" Type="VI" URL="../Block Config.ctl"/>
 		<Item Name="Calculated Sizes.ctl" Type="VI" URL="../Calculated Sizes.ctl"/>
 		<Item Name="Corner.ctl" Type="VI" URL="../Corner.ctl"/>
+		<Item Name="Event Terminals.ctl" Type="VI" URL="../Event Terminals.ctl"/>
 		<Item Name="Grouped Terms.ctl" Type="VI" URL="../Grouped Terms.ctl"/>
 		<Item Name="Lossless Terminals.ctl" Type="VI" URL="../Lossless Terminals.ctl"/>
 		<Item Name="Lossy Terminals.ctl" Type="VI" URL="../Lossy Terminals.ctl"/>
+		<Item Name="Menu Tag.ctl" Type="VI" URL="../Menu Tag.ctl"/>
 		<Item Name="New Block Config.ctl" Type="VI" URL="../New Block Config.ctl"/>
 		<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
+		<Item Name="Read Write Control.ctl" Type="VI" URL="../Read Write Control.ctl"/>
+		<Item Name="Right-Click Menu Target.ctl" Type="VI" URL="../Right-Click Menu Target.ctl"/>
 		<Item Name="Size Constants.ctl" Type="VI" URL="../Size Constants.ctl"/>
 		<Item Name="SM Refs.ctl" Type="VI" URL="../SM Refs.ctl"/>
 		<Item Name="Special Terminal Indices.ctl" Type="VI" URL="../Special Terminal Indices.ctl"/>
@@ -38,6 +42,11 @@
 		<Item Name="Worker Variant.ctl" Type="VI" URL="../Worker Variant.ctl"/>
 		<Item Name="Write Terminals.ctl" Type="VI" URL="../Write Terminals.ctl"/>
 		<Item Name="XNode Errors.ctl" Type="VI" URL="../XNode Errors.ctl"/>
+	</Item>
+	<Item Name="Dev" Type="Folder">
+		<Item Name="_AbilityLog.vi" Type="VI" URL="../_AbilityLog.vi"/>
+		<Item Name="_Add Ability Log.vi" Type="VI" URL="../_Add Ability Log.vi"/>
+		<Item Name="Ability Log.vim" Type="VI" URL="../Ability Log.vim"/>
 	</Item>
 	<Item Name="Drawing" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
@@ -83,10 +92,12 @@
 	<Item Name="Scripting" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Clear Diagram.vi" Type="VI" URL="../Clear Diagram.vi"/>
 			<Item Name="Collect SM Refs.vi" Type="VI" URL="../Collect SM Refs.vi"/>
 			<Item Name="Copy SM Template.vi" Type="VI" URL="../Copy SM Template.vi"/>
 			<Item Name="Create Lossless Endpoint.vi" Type="VI" URL="../Create Lossless Endpoint.vi"/>
 			<Item Name="Create Lossy Endpoint.vi" Type="VI" URL="../Create Lossy Endpoint.vi"/>
+			<Item Name="Create Temp VI for Refs.vi" Type="VI" URL="../Create Temp VI for Refs.vi"/>
 			<Item Name="Create Write Endpoint.vi" Type="VI" URL="../Create Write Endpoint.vi"/>
 			<Item Name="Find MFStruct Inner Tunnel.vi" Type="VI" URL="../Find MFStruct Inner Tunnel.vi"/>
 			<Item Name="Get Other Inner Case Terminal.vi" Type="VI" URL="../Get Other Inner Case Terminal.vi"/>
@@ -95,7 +106,8 @@
 			<Item Name="Remove Init Objects.vi" Type="VI" URL="../Remove Init Objects.vi"/>
 			<Item Name="Remove Tag Objects.vi" Type="VI" URL="../Remove Tag Objects.vi"/>
 			<Item Name="Replace Worker Items.vi" Type="VI" URL="../Replace Worker Items.vi"/>
-			<Item Name="Script IO Control.vi" Type="VI" URL="../Script IO Control.vi"/>
+			<Item Name="Script Block Config.vi" Type="VI" URL="../Script Block Config.vi"/>
+			<Item Name="Script ReadWrite Control.vi" Type="VI" URL="../Script ReadWrite Control.vi"/>
 			<Item Name="Script Work CS.vi" Type="VI" URL="../Script Work CS.vi"/>
 			<Item Name="Set Connected Tunnel Optional.vi" Type="VI" URL="../Set Connected Tunnel Optional.vi"/>
 			<Item Name="SM Ref Taversal Callback.vi" Type="VI" URL="../SM Ref Taversal Callback.vi"/>
@@ -110,7 +122,7 @@
 		<Item Name="Traverse VI Type.vit" Type="VI" URL="../Traverse VI Type.vit"/>
 		<Item Name="Type String.vi" Type="VI" URL="../Type String.vi"/>
 	</Item>
-	<Item Name="SM Support" Type="Folder">
+	<Item Name="SM Template" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Commands" Type="Folder">
 			<Item Name="Idle State Update.vi" Type="VI" URL="../Idle State Update.vi"/>
@@ -147,6 +159,9 @@
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="2D" Type="Folder">
+			<Item Name="2D In Bounds Check.vi" Type="VI" URL="../2D In Bounds Check.vi"/>
+		</Item>
 		<Item Name="All UI States.vi" Type="VI" URL="../All UI States.vi"/>
 		<Item Name="CopyLibraryNoShift.vi" Type="VI" URL="../CopyLibraryNoShift.vi"/>
 		<Item Name="Dev Mode.vi" Type="VI" URL="../Dev Mode.vi"/>
@@ -190,6 +205,12 @@
 		</Item>
 		<Item Name="Images" Type="Folder">
 			<Item Name="Corner Pixmap.vi" Type="VI" URL="../Corner Pixmap.vi"/>
+		</Item>
+		<Item Name="Operate" Type="Folder">
+			<Item Name="Make Menu Tag.vi" Type="VI" URL="../Make Menu Tag.vi"/>
+			<Item Name="Parse Menu Tag.vi" Type="VI" URL="../Parse Menu Tag.vi"/>
+			<Item Name="Right-Click Menu.vi" Type="VI" URL="../Right-Click Menu.vi"/>
+			<Item Name="Right-Click Target.vi" Type="VI" URL="../Right-Click Target.vi"/>
 		</Item>
 		<Item Name="Sizing" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
