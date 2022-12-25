@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-08 21:36:11" Modified_Date="2022-12-24 18:42:24" Creator="Localization Tester" Comments="" ID="617cc915f407a02d3fdf7338158e6fc6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-08 21:36:11" Modified_Date="2022-12-24 21:28:13" Creator="Localization Tester" Comments="" ID="ad65e3b16bb6707942116555e925a2b5">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_FlexBlocks</Package_File_Name>
-    <Library_Version>0.1.0.32</Library_Version>
+    <Library_Version>0.1.0.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -235,7 +235,7 @@
         <Path>Flex Block\Flex Block.xnode</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32BBEB33B27E108C2BF756C74FB7D7F8</GUID>
+      <GUID>CEE5DAA04EA97BFBCE3CB456CCEA130A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
