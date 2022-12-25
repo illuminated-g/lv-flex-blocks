@@ -12,8 +12,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tools Menu" Type="Folder">
-			<Item Name="Block Tree.vi" Type="VI" URL="../Menus/Tools/Flex/Block Tree.vi"/>
+		<Item Name="Menus" Type="Folder">
+			<Item Name="Tools" Type="Folder">
+				<Item Name="Block Tree.vi" Type="VI" URL="../Menus/Tools/Flex/Block Tree.vi"/>
+			</Item>
+			<Item Name="QuickDrop" Type="Folder">
+				<Item Name="Launch Block Tree QD.vi" Type="VI" URL="../Menus/QuickDrop/Launch Block Tree QD.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Flex Block.xnode" Type="XNode" URL="../Flex Block/Flex Block.xnode"/>
 		<Item Name="FlexBlocks Support.lvlib" Type="Library" URL="../FlexBlocks Support/FlexBlocks Support.lvlib"/>
@@ -123,9 +128,8 @@
 			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
-			<Item Name="Flex-dbl.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-dbl.lvlib"/>
-			<Item Name="Flex-c(dbl,dbl,a[.](dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-c(dbl,dbl,a[.](dbl)).lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Flex-c(dbl,dbl,a[.](dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Flex-c(dbl,dbl,a[.](dbl)).lvlib"/>
 			<Item Name="Gain.lvlib" Type="Library" URL="../../../../Users/Localization Tester/Documents/LabVIEW Data/FB-Dev/FlexBlocks/Workers/Gain/Gain.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

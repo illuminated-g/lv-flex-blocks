@@ -3,3 +3,4 @@
 - Easier creation of channel wire endpoints from blocks
 - handle control ref inputs
 - Tools menu entries
+- If removing Init case, need to do remove init
