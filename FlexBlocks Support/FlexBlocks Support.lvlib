@@ -93,14 +93,16 @@
 	<Item Name="Scripting" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Endpoints" Type="Folder">
+				<Item Name="Create Lossless Endpoint.vi" Type="VI" URL="../Create Lossless Endpoint.vi"/>
+				<Item Name="Create Lossy Endpoint.vi" Type="VI" URL="../Create Lossy Endpoint.vi"/>
+				<Item Name="Create Ref Endpoint.vi" Type="VI" URL="../Create Ref Endpoint.vi"/>
+				<Item Name="Create Write Endpoint.vi" Type="VI" URL="../Create Write Endpoint.vi"/>
+			</Item>
 			<Item Name="Clear Diagram.vi" Type="VI" URL="../Clear Diagram.vi"/>
 			<Item Name="Collect SM Refs.vi" Type="VI" URL="../Collect SM Refs.vi"/>
 			<Item Name="Copy SM Template.vi" Type="VI" URL="../Copy SM Template.vi"/>
-			<Item Name="Create Lossless Endpoint.vi" Type="VI" URL="../Create Lossless Endpoint.vi"/>
-			<Item Name="Create Lossy Endpoint.vi" Type="VI" URL="../Create Lossy Endpoint.vi"/>
-			<Item Name="Create Ref Endpoint.vi" Type="VI" URL="../Create Ref Endpoint.vi"/>
 			<Item Name="Create Temp VI for Refs.vi" Type="VI" URL="../Create Temp VI for Refs.vi"/>
-			<Item Name="Create Write Endpoint.vi" Type="VI" URL="../Create Write Endpoint.vi"/>
 			<Item Name="Find MFStruct Inner Tunnel.vi" Type="VI" URL="../Find MFStruct Inner Tunnel.vi"/>
 			<Item Name="Get Other Inner Case Terminal.vi" Type="VI" URL="../Get Other Inner Case Terminal.vi"/>
 			<Item Name="Group Terminals.vi" Type="VI" URL="../Group Terminals.vi"/>
